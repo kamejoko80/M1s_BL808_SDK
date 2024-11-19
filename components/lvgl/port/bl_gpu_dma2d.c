@@ -22,7 +22,7 @@
  */
 
 
-#include "../lvgl/src/lv_conf_internal.h"
+#include "lv_conf_internal.h"
 
 #if LV_USE_GPU_LB_DMA2D
 
