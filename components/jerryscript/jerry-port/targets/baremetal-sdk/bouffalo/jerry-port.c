@@ -27,14 +27,15 @@
 #include <FreeRTOS.h>
 #include <task.h>
 
+#if 0 /* Use the default port in jerryscript/jerry-port/common */
 void jerry_port_print_byte (jerry_char_t byte)
 {
-    printf ("%x\r\n", byte);
+  printf ("%x\r\n", byte);
 }
 
 void jerry_port_print_buffer (const jerry_char_t *buffer_p, jerry_size_t buffer_size)
 {
-    printf ("%s\r\n", buffer_p);
+  printf ("%s\r\n", buffer_p);
 }
 
 /**
@@ -57,6 +58,7 @@ jerry_port_fatal (jerry_fatal_code_t code) /**< cause of error */
   vTaskSuspend (NULL);
   abort ();
 } /* jerry_port_fatal */
+#endif
 
 /**
  * Default implementation of jerry_port_local_tza. Uses the 'tm_gmtoff' field

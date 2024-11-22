@@ -51,6 +51,7 @@ COMPONENT_SRCDIRS += jerryscript/jerry-ext/handle-scope
 COMPONENT_SRCDIRS += jerryscript/jerry-ext/module
 COMPONENT_SRCDIRS += jerryscript/jerry-ext/util
 
+COMPONENT_SRCDIRS += jerryscript/jerry-port/common
 COMPONENT_SRCDIRS += jerry-port/targets/baremetal-sdk/bouffalo
 
 # Jerryscript config
