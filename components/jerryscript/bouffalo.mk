@@ -2,6 +2,9 @@
 #
 ## These include paths would be exported to project level
 
+# For Jerryscript version please refer to jerryscript/jerry-core/include/jerryscript.h
+# Jerryscript version: 3.0.0
+
 # Jerryscript c header file path
 COMPONENT_ADD_INCLUDEDIRS := .
 COMPONENT_ADD_INCLUDEDIRS += jerryscript/jerry-core
