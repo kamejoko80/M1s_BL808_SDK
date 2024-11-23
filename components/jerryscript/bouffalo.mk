@@ -29,6 +29,8 @@ COMPONENT_ADD_INCLUDEDIRS += jerryscript/jerry-ext/debugger
 COMPONENT_ADD_INCLUDEDIRS += jerryscript/jerry-ext/handle-scope
 COMPONENT_ADD_INCLUDEDIRS += jerryscript/jerry-ext/include
 
+COMPONENT_ADD_INCLUDEDIRS += jerry-port/include
+
 # Jerryscript source include
 COMPONENT_SRCDIRS := .
 COMPONENT_SRCDIRS += jerryscript/jerry-core
