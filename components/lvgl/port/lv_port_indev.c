@@ -333,7 +333,7 @@ static int touch_read(uint16_t *x, uint16_t *y)
     pos_x = (pos_x << 8) | buf[3];
     uint16_t pos_y = buf[4] & 0x0F;
     pos_y = (pos_y << 8) | buf[5];
-    printf("pos: (%-3u, %-3u)[%u]\r\n", pos_x, pos_y, status);
+    //printf("pos: (%-3u, %-3u)[%u]\r\n", pos_x, pos_y, status);
     if (status != 8) {
         return 0;
     }
