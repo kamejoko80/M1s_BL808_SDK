@@ -5,7 +5,7 @@
 # For Jerryscript version please refer to jerryscript/jerry-core/include/jerryscript.h
 # Jerryscript version: 3.0.0
 
-JERRYSCRIPT_VERSION := 2.4.0
+#JERRYSCRIPT_VERSION := 2.4.0
 
 ifeq ($(JERRYSCRIPT_VERSION), 2.4.0)
     # Stable 2.4.0
